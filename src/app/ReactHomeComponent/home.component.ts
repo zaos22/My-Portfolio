@@ -7,9 +7,9 @@ import * as ReactDOM from 'react-dom';
 import Home from './Home';
 
 @Component({
-  selector: 'home-root',
+  selector: 'home-component',
   template: '<div [id]="rootId"></div>',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnChanges, AfterViewInit, OnDestroy{
   title = 'portfolio-react-angular';

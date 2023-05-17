@@ -1,1 +1,78 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "node_modules/bootstrap/dist/css/bootstrap.min.css";
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.p-flex {
+    display: flex;
+}
+
+.p-flex-align-center {
+    align-items: center;
+}
+
+.p-flex-jc-sb {
+    justify-content: space-between;
+}
+
+.p-wrapper {
+    position: relative;
+}
+
+.p-wrapper::before {
+    content: '';
+    background-color: blueviolet;
+    height: 100vh;
+    width: 25vw;
+    position: absolute;
+    z-index: -1;
+}
+
+
+/* Media Queries */
+
+
+/* Para dispositivos móviles y pantallas pequeñas */
+
+@media (max-width: 767px) {
+    .p-wrapper::before {
+        width: 30vw;
+        height: 240vh;
+        /* Ajusta la altura según tus necesidades */
+        background-color: blueviolet;
+        /* Cambia el color de fondo para dispositivos móviles */
+    }
+}
+
+
+/* Para tabletas y pantallas medianas */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .p-wrapper::before {
+        width: 30vw;
+        height: 110vh;
+        /* Ajusta la altura según tus necesidades */
+    }
+}
+
+
+/* Para pantallas grandes */
+
+@media (min-width: 992px) {
+    .p-wrapper::before {
+        width: 30vw;
+        height: 120vh;
+    }
+}

@@ -1,0 +1,38 @@
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 p-flex p-flex-align-center p-flex-jc-sb">
+                <ul>
+                    <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+                    <label for="openSidebarMenu" class="sidebarIconToggle">
+                      <div class="spinner diagonal part-1"></div>
+                      <div class="spinner horizontal"></div>
+                      <div class="spinner diagonal part-2"></div>
+                  </label>
+                    <div id="sidebarMenu">
+                        <div class="main-content-wrapper">
+                            <a href="" [routerLink]="['/']" [routerLinkActive]="['is-active']">News</a>
+                            <a href="#contact">Contact</a>
+                            <a href="#about">About</a>
+                        </div>
+                    </div>
+
+                </ul>
+                <ul>
+                    <li class="ul-items">
+                        <a href="" [routerLink]="['/']" [routerLinkActive]="['is-active']">Home</a>
+                    </li>
+                    <li class="ul-items">
+                        <a href="" [routerLink]="['/about']" [routerLinkActive]="['is-active']">About</a>
+                    </li>
+                    <li class="ul-items">
+                        <a href="" [routerLink]="['/portfolio']" [routerLinkActive]="['is-active']">Portfolio</a>
+                    </li>
+                    <li class="ul-items">
+                        <a href="" [routerLink]="['/reach']" [routerLinkActive]="['is-active']">Reach</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>

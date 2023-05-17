@@ -1,0 +1,233 @@
+header {
+    padding: 30px 0;
+}
+
+.p-hamburger {
+    cursor: pointer;
+}
+
+.p-hamburger span {
+    width: 20px;
+    height: 3px;
+    background: #000;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.p-hamburger span:last-child {
+    margin-bottom: 0;
+}
+
+.p-hamburger span:nth-child(2) {
+    width: 10px;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+}
+
+header ul li {
+    padding: 0 40px;
+}
+
+header ul li:first-child {
+    padding-left: 0;
+}
+
+header ul li:last-child {
+    padding-right: 0;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+header ul li a {
+    color: #000000;
+    font-weight: 500;
+    position: relative;
+}
+
+header ul li a:hover::after,
+header ul li a.is-active::after {
+    content: '';
+    background: rgba(137, 43, 226, 0.455);
+    height: 5px;
+    position: absolute;
+    left: 1px;
+    z-index: -1;
+    bottom: 0;
+    right: -3px;
+}
+
+.ul-items {
+    display: block;
+}
+
+#sidebarMenu {
+    height: 171px;
+    /*change here related your menu height*/
+    position: fixed;
+    overflow: none;
+    width: 100%;
+    z-index: 100;
+    transform: translateY(-171px);
+    /*change here related your menu height*/
+}
+
+.main-content-wrapper a {
+    width: 100%;
+    height: 40px;
+    display: block;
+    background: #03030300;
+    text-align: center;
+    padding-top: 15px;
+    border: 1px solid #4b454500;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+#sidebarMenu::-webkit-scrollbar {
+    width: 12px;
+}
+
+#sidebarMenu::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+    border-radius: 10px;
+}
+
+#sidebarMenu::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    background: transparent;
+    height: 50px;
+}
+
+.sidebarMenuInner {
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid transparent;
+}
+
+input[type="checkbox"]:checked~#sidebarMenu {
+    transform: translatey(0);
+    top: 50px/*change here related your top menu height*/
+}
+
+input[type=checkbox] {
+    transition: all 0.3s;
+    display: none;
+}
+
+.sidebarIconToggle {
+    transition: all 0.3s;
+    cursor: pointer;
+    position: absolute;
+    z-index: 99;
+    height: 22px;
+    width: 22px;
+    left: 20px;
+    top: 20px;
+    display: none
+}
+
+.spinner {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background-color: black;
+}
+
+.horizontal {
+    transition: all 0.3s;
+    position: relative;
+    float: left;
+    margin-top: 3px;
+}
+
+.diagonal.part-1 {
+    position: relative;
+    transition: all 0.3s;
+    float: left;
+}
+
+.diagonal.part-2 {
+    transition: all 0.3s;
+    position: relative;
+    float: left;
+    margin-top: 3px;
+}
+
+input[type=checkbox]:checked~.sidebarIconToggle>.horizontal {
+    transition: all 0.3s;
+    opacity: 0;
+}
+
+input[type=checkbox]:checked~.sidebarIconToggle>.diagonal.part-1 {
+    transition: all 0.3s;
+    transform: rotate(135deg);
+    margin-top: 8px;
+}
+
+input[type=checkbox]:checked~.sidebarIconToggle>.diagonal.part-2 {
+    transition: all 0.3s;
+    transform: rotate(-135deg);
+    margin-top: -9px;
+}
+
+@media screen and (max-width: 950px) {
+    .sidebarIconToggle {
+        display: block
+    }
+}
+
+
+/* Media Queries */
+
+
+/* Para dispositivos móviles y pantallas pequeñas */
+
+@media (max-width: 767px) {
+    .ul-items {
+        display: none;
+        /* Oculta completamente el encabezado en dispositivos móviles */
+    }
+    .search-icon {
+        display: none;
+    }
+    .sidebarIconToggle {
+        left: 47px;
+        top: 30px;
+    }
+}
+
+
+/* Para tabletas y pantallas medianas */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .ul-items {
+        display: none;
+        /* Oculta completamente el encabezado en tabletas */
+    }
+    .search-icon {
+        display: none;
+    }
+    .sidebarIconToggle {
+        width: 32px;
+        left: 102px;
+        top: 40px;
+    }
+}
+
+
+/* Para pantallas grandes */
+
+@media (min-width: 992px) {
+    /* Mantén los estilos originales para pantallas grandes */
+}
