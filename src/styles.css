@@ -48,11 +48,20 @@ ul {
 
 @media (max-width: 767px) {
     .p-wrapper::before {
-        width: 30vw;
-        height: 240vh;
-        /* Ajusta la altura según tus necesidades */
+        display: none;
+    }
+    .p-wrapper2 {
+        margin: 0;
+        padding: 0;
+        padding-bottom: 5px;
+        content: '';
         background-color: blueviolet;
-        /* Cambia el color de fondo para dispositivos móviles */
+        height: 10vh;
+        width: 100vw;
+        position: absolute;
+    }
+    .body-content {
+        padding-top: 120px;
     }
 }
 
@@ -64,6 +73,9 @@ ul {
         width: 30vw;
         height: 110vh;
         /* Ajusta la altura según tus necesidades */
+    }
+    .body-content {
+        padding-top: 120px;
     }
 }
 

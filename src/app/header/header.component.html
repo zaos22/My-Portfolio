@@ -5,18 +5,18 @@
                 <ul>
                     <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
                     <label for="openSidebarMenu" class="sidebarIconToggle">
-                      <div class="spinner diagonal part-1"></div>
-                      <div class="spinner horizontal"></div>
-                      <div class="spinner diagonal part-2"></div>
+                    <div class="spinner diagonal part-1"></div>
+                    <div class="spinner horizontal"></div>
+                    <div class="spinner diagonal part-2"></div>
                   </label>
                     <div id="sidebarMenu">
                         <div class="main-content-wrapper">
-                            <a href="" [routerLink]="['/']" [routerLinkActive]="['is-active']">News</a>
-                            <a href="#contact">Contact</a>
-                            <a href="#about">About</a>
+                            <a href="" [routerLink]="['/']" [routerLinkActive]="['is-active']">Home</a>
+                            <a href="" [routerLink]="['/about']" [routerLinkActive]="['is-active']">About</a>
+                            <a href="" [routerLink]="['/portfolio']" [routerLinkActive]="['is-active']">Portfolio</a>
+                            <a href="" [routerLink]="['/reach']" [routerLinkActive]="['is-active']">Reach</a>
                         </div>
                     </div>
-
                 </ul>
                 <ul>
                     <li class="ul-items">
@@ -36,3 +36,12 @@
         </div>
     </div>
 </header>
+
+<script>
+    var openSidebarMenuCheckbox = document.getElementById('openSidebarMenu');
+    var closeBtn = document.querySelector('#sidebarMenu .close-btn');
+
+    closeBtn.addEventListener('click', function() {
+        openSidebarMenuCheckbox.checked = false;
+    });
+</script>
