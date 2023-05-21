@@ -52,7 +52,7 @@ header ul li a {
 
 header ul li a:hover::after,
 header ul li a.is-active::after {
-    content: '';
+    content: "";
     background: rgba(137, 43, 226, 0.455);
     height: 5px;
     position: absolute;
@@ -97,6 +97,31 @@ header ul li a.is-active::after {
 
 .menu-toggle::after {
     top: 18px;
+}
+
+.time {
+    position: absolute;
+}
+
+.time2 {
+    display: none;
+}
+
+.weather-box {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: transparent;
+}
+
+.weather-icon {
+    margin-right: 10px;
+    font-size: 24px;
+    color: #ffaa00;
+}
+
+.weather-info p {
+    margin: 0;
 }
 
 #sidebarMenu {
@@ -164,12 +189,18 @@ input[type="checkbox"]:checked~#sidebarMenu {
 
 @media (min-width: 991px) {
     .menu-toggle,
+    .time {
+        display: block;
+    }
     #sidebarMenu {
+        display: none;
+    }
+    .time2 {
         display: none;
     }
 }
 
-input[type=checkbox] {
+input[type="checkbox"] {
     transition: all 0.3s;
     display: none;
 }
@@ -183,7 +214,7 @@ input[type=checkbox] {
     width: 22px;
     left: 20px;
     top: 20px;
-    display: none
+    display: none;
 }
 
 .spinner {
@@ -215,18 +246,18 @@ input[type=checkbox] {
     margin-top: 3px;
 }
 
-input[type=checkbox]:checked~.sidebarIconToggle>.horizontal {
+input[type="checkbox"]:checked~.sidebarIconToggle>.horizontal {
     transition: all 0.3s;
     opacity: 0;
 }
 
-input[type=checkbox]:checked~.sidebarIconToggle>.diagonal.part-1 {
+input[type="checkbox"]:checked~.sidebarIconToggle>.diagonal.part-1 {
     transition: all 0.3s;
     transform: rotate(135deg);
     margin-top: 8px;
 }
 
-input[type=checkbox]:checked~.sidebarIconToggle>.diagonal.part-2 {
+input[type="checkbox"]:checked~.sidebarIconToggle>.diagonal.part-2 {
     transition: all 0.3s;
     transform: rotate(-135deg);
     margin-top: -9px;
@@ -234,7 +265,32 @@ input[type=checkbox]:checked~.sidebarIconToggle>.diagonal.part-2 {
 
 @media screen and (max-width: 991px) {
     .sidebarIconToggle {
-        display: block
+        display: block;
+    }
+    .time {
+        display: none;
+    }
+    .time2 {
+        margin-top: -20px;
+        margin-right: -50px;
+        position: relative;
+        display: block;
+    }
+    .weather-box {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 10px;
+        background-color: transparent;
+    }
+    .weather-icon {
+        margin-right: 10px;
+        font-size: 15px;
+        color: #ffaa00;
+    }
+    .weather-info p {
+        margin: 0;
+        font-size: 14px;
     }
 }
 
