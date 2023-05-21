@@ -6,3 +6,150 @@
     background-position: top;
     background-repeat: no-repeat;
 }
+
+.typing-animation {
+    animation: typing 5s steps(9) forwards;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    width: 0;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+.info-link {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.info-text {
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.info-animation {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    opacity: 0;
+    color: rgba(137, 43, 226, 0.455);
+    font-size: 14px;
+    font-style: italic;
+    transition: opacity 0.3s;
+}
+
+.info-link:hover .info-text {
+    color: blueviolet;
+}
+
+.info-link:hover .info-animation {
+    opacity: 1;
+}
+
+.logo-box {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.react {
+    animation: fadeInReact 1s linear 0s 1 normal forwards;
+}
+
+.angular {
+    animation: fadeInAngular 1s linear 1s 1 normal forwards;
+}
+
+.vue {
+    animation: fadeInVue 1s linear 2s 1 normal forwards;
+}
+
+@keyframes fadeInReact {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeInAngular {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    60% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInVue {
+    0% {
+        opacity: 0;
+        transform: rotateY(180deg);
+    }
+    80% {
+        opacity: 1;
+        transform: rotateY(0);
+    }
+    100% {
+        opacity: 1;
+        transform: rotateY(0);
+    }
+}
+
+.space1 {
+    padding-top: 35px;
+}
+
+.space2 {
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+@media (max-width: 767px) {
+    .space2 {
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .space4 p {
+        margin-top: 10px;
+        text-align: justify;
+        font-size: 14px;
+    }
+}
+
+.space3 {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.a-angular {
+    color: red;
+}
+
+.a-vue {
+    color: green;
+}
