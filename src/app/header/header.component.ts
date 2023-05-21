@@ -21,7 +21,7 @@ import { Component, OnInit } from '@angular/core';
               <div class="main-content-wrapper">
                 <a
                   href=""
-                  [routerLink]="['/']"
+                  [routerLink]="['/home']"
                   [routerLinkActive]="['is-active']"
                   >Home</a
                 >
@@ -33,9 +33,9 @@ import { Component, OnInit } from '@angular/core';
                 >
                 <a
                   href=""
-                  [routerLink]="['/portfolio']"
+                  [routerLink]="['/projects']"
                   [routerLinkActive]="['is-active']"
-                  >Portfolio</a
+                  >Projects</a
                 >
                 <a
                   href=""
@@ -77,7 +77,7 @@ import { Component, OnInit } from '@angular/core';
               </div>
             </li>
             <li class="ul-items">
-              <a href="" [routerLink]="['/']" [routerLinkActive]="['is-active']"
+              <a href="" [routerLink]="['/home']" [routerLinkActive]="['is-active']"
                 >Home</a
               >
             </li>
@@ -92,9 +92,9 @@ import { Component, OnInit } from '@angular/core';
             <li class="ul-items">
               <a
                 href=""
-                [routerLink]="['/portfolio']"
+                [routerLink]="['/projects']"
                 [routerLinkActive]="['is-active']"
-                >Portfolio</a
+                >Projects</a
               >
             </li>
             <li class="ul-items">

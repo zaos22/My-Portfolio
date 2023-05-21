@@ -4,14 +4,14 @@ import * as React from 'react';
 
 import * as ReactDOM from 'react-dom';
 
-import Home from './Home';
+import Home from '../projects/projects';
 
 @Component({
-  selector: 'home-component',
+  selector: 'app-projects',
   template: '<div [id]="rootId"></div>',
-  styleUrls: ['./home.component.css']
+  styleUrls: ['./projects.component.css']
 })
-export class HomeComponent implements OnChanges, AfterViewInit, OnDestroy{
+export class ProjectsComponent implements OnChanges, AfterViewInit, OnDestroy{
   title = 'portfolio-react-angular';
 
   public rootId = 'rootId';
