@@ -272,7 +272,7 @@ input[type="checkbox"]:checked~.sidebarIconToggle>.diagonal.part-2 {
     }
     .time2 {
         margin-top: -20px;
-        margin-right: -50px;
+        margin-right: -35px;
         position: relative;
         display: block;
     }
