@@ -28,7 +28,7 @@ import { Component, OnInit } from '@angular/core';
           <div class="space1">
             <div class="d-flex justify-content-between">
               <div class="logo-box react p-3">
-                <a href="https://react.dev/"
+                <a class="a-react" href="https://react.dev/"
                   ><i class="fab fa-react fa-4x"></i
                 ></a>
               </div>
@@ -47,7 +47,7 @@ import { Component, OnInit } from '@angular/core';
           <div class="space3 d-flex justify-content-center">
             <a href="/reach" class="info-link">
               <span class="info-text">Más información</span>
-              <span class="info-animation">Hazme click</span>
+              <span class="info-animation">Click on me</span>
             </a>
           </div>
         </div>
