@@ -46,7 +46,7 @@ import { Component, OnInit } from '@angular/core';
           </div>
           <div class="space3 d-flex justify-content-center">
             <a href="/reach" class="info-link">
-              <span class="info-text">Más información</span>
+              <span class="info-text">More information</span>
               <span class="info-animation">Click on me</span>
             </a>
           </div>
