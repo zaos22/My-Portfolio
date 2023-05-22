@@ -25,23 +25,21 @@ import { Component, OnInit } from '@angular/core';
               my experience.
             </p>
           </div>
-          <div class="d-flex justify-content-center align-items-center">
-            <div class="d-flex justify-content-between">
-              <div class="logo-box react p-3">
-                <a class="a-react" href="https://react.dev/"
-                  ><i class="fab fa-react fa-4x"></i
-                ></a>
-              </div>
-              <div class="logo-box angular p-3">
-                <a class="a-angular" href="https://angular.io"
-                  ><i class="fab fa-angular fa-4x"></i
-                ></a>
-              </div>
-              <div class="logo-box vue p-3">
-                <a class="a-vue" href="https://vuejs.org/"
-                  ><i class="fab fa-vuejs fa-4x"></i
-                ></a>
-              </div>
+          <div class="d-flex justify-content-between space1">
+            <div class="logo-box react p-3">
+              <a class="a-react" href="https://react.dev/"
+                ><i class="fab fa-react fa-4x"></i
+              ></a>
+            </div>
+            <div class="logo-box angular p-3">
+              <a class="a-angular" href="https://angular.io"
+                ><i class="fab fa-angular fa-4x"></i
+              ></a>
+            </div>
+            <div class="logo-box vue p-3">
+              <a class="a-vue" href="https://vuejs.org/"
+                ><i class="fab fa-vuejs fa-4x"></i
+              ></a>
             </div>
           </div>
           <div class="space3 d-flex justify-content-center">
