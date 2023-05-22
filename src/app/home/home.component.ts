@@ -25,7 +25,7 @@ import { Component, OnInit } from '@angular/core';
               my experience.
             </p>
           </div>
-          <div class="space1">
+          <div class="d-flex justify-content-center align-items-center">
             <div class="d-flex justify-content-between">
               <div class="logo-box react p-3">
                 <a class="a-react" href="https://react.dev/"

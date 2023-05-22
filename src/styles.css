@@ -4,12 +4,12 @@
 .container {
     max-width: 100%;
     overflow-x: hidden;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
 }
 
 body {
     overflow-x: hidden;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
     margin: 0;
     padding: 0;
 }
