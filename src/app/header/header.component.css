@@ -124,6 +124,7 @@ header ul li a.is-active::after {
 .weather-info p {
     margin: 0;
     font-size: 14px;
+    color: white;
 }
 
 #sidebarMenu {
@@ -293,6 +294,7 @@ input[type="checkbox"]:checked~.sidebarIconToggle>.diagonal.part-2 {
     .weather-info p {
         margin: 0;
         font-size: 11px;
+        color: white;
     }
 }
 
