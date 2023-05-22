@@ -49,7 +49,7 @@ import { Component, OnInit } from '@angular/core';
             <li class="time">
               <div class="weather-box">
                 <div class="weather-icon">
-                  <i class="fas fa-sun"></i>
+                  <i class="fas fa-clock"></i>
                 </div>
                 <div class="weather-info">
                   <p>
@@ -65,7 +65,7 @@ import { Component, OnInit } from '@angular/core';
             <li class="time2">
               <div class="weather-box">
                 <div class="weather-icon">
-                  <i class="fas fa-sun"></i>
+                  <i class="fas fa-clock"></i>
                 </div>
                 <div class="weather-info">
                   <p>
@@ -77,7 +77,10 @@ import { Component, OnInit } from '@angular/core';
               </div>
             </li>
             <li class="ul-items">
-              <a href="" [routerLink]="['/home']" [routerLinkActive]="['is-active']"
+              <a
+                href=""
+                [routerLink]="['/home']"
+                [routerLinkActive]="['is-active']"
                 >Home</a
               >
             </li>
