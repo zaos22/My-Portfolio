@@ -1,0 +1,113 @@
+.contact-box {
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-box-header {
+    margin-bottom: 20px;
+}
+
+.contact-box-header h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.contact-box-body {
+    margin-bottom: 20px;
+}
+
+.contact-option {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-option i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Estilos para el carrusel de mini cajas */
+
+.mini-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.mini-box i {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.mini-box span {
+    font-size: 14px;
+    text-align: center;
+}
+
+.contact-option span {
+    font-size: 16px;
+}
+
+.contact-box-footer {
+    margin-top: 20px;
+}
+
+@media (max-width: 576px) {
+    .contact-box {
+        padding: 10px;
+    }
+    .contact-box-header h2 {
+        font-size: 20px;
+    }
+    .contact-option i {
+        font-size: 16px;
+    }
+    .contact-option span {
+        font-size: 14px;
+    }
+}
+
+.img-space {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1 {
+    background: url('assets/img/ins-montsia.png');
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.img2 {
+    background: url('assets/img/joan-coromines.png');
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
