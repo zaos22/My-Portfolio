@@ -36,10 +36,7 @@ import { Component } from '@angular/core';
                             </div>
                             <div class="contact-option">
                               <i class="fa-regular fa-calendar-days"></i>
-                              <span>
-                                October 2021 - May 2023 (1 year and 7
-                                months)</span
-                              >
+                              <span> October 2021 - May 2023 </span>
                             </div>
                           </div>
                         </div>
@@ -80,10 +77,7 @@ import { Component } from '@angular/core';
                             </div>
                             <div class="contact-option">
                               <i class="fa-regular fa-calendar-days"></i>
-                              <span>
-                                September 2019 - May 2021 (1 year and 8
-                                months)</span
-                              >
+                              <span> September 2019 - May 2021 </span>
                             </div>
                           </div>
                         </div>
@@ -203,17 +197,82 @@ import { Component } from '@angular/core';
                         <h2>Languages</h2>
                       </div>
                       <div class="contact-box-body">
-                        <div class="contact-option">
-                          <i class="fas fa-envelope"></i>
-                          <span>Email: ozazou2001@gmail.com</span>
+                        <div class="row">
+                          <div class="col-4">
+                            <div class="mini-box">
+                              <i class="fas fa-flag"></i>
+                              <span>Spanish - Native</span>
+                            </div>
+                          </div>
+                          <div class="col-4">
+                            <div class="mini-box">
+                              <i class="fas fa-flag"></i>
+                              <span>Catalan - Native</span>
+                            </div>
+                          </div>
+                          <div class="col-4">
+                            <div class="mini-box">
+                              <i class="fas fa-flag"></i>
+                              <span>Arabic - Native</span>
+                            </div>
+                          </div>
+                          <div class="col-4">
+                            <div class="mini-box">
+                              <i class="fas fa-flag"></i>
+                              <span>English - A2 (B1)</span>
+                            </div>
+                          </div>
+                          <div class="col-4">
+                            <div class="mini-box">
+                              <i class="fas fa-flag"></i>
+                              <span>Korean - Basic</span>
+                            </div>
+                          </div>
+                          <div class="col-4">
+                            <div class="mini-box">
+                              <i class="fas fa-flag"></i>
+                              <span>Italian - Basic</span>
+                            </div>
+                          </div>
                         </div>
-                        <div class="contact-option">
-                          <i class="fas fa-phone"></i>
-                          <span>Phone: +34617177042</span>
-                        </div>
-                        <div class="contact-option">
-                          <i class="fas fa-map-marker-alt"></i>
-                          <span>Address: Spain, Benicarló</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+        <div class="col-12 pt-5 text-center">
+          <h1>Extra</h1>
+        </div>
+        <div class="col-sm-12 pt-5 text-center">
+          <div class="container">
+            <section>
+              <div class="container">
+                <div class="row justify-content-center align-items-center">
+                  <div class="col-md-8">
+                    <div class="contact-box">
+                      <div class="contact-box-header">
+                        <h2>Curriculum vitae</h2>
+                      </div>
+                      <div class="contact-box-body">
+                        <div class="row space">
+                          <div class="col-1">
+                            <div class="mini-box pt-2">
+                              <i class="fas fa-user-circle"></i>
+                            </div>
+                          </div>
+                          <div class="col-1">
+                            <div class="mini-box">
+                              <a
+                                href="https://acortar.link/CV-ZAO"
+                                target="_blank"
+                                class="btn btn-primary"
+                                >PDF</a
+                              >
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>

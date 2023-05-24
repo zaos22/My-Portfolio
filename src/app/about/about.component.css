@@ -137,3 +137,8 @@ a {
         height: 220vh;
     }
 }
+
+.space {
+    display: flex;
+    justify-content: center;
+}
