@@ -1,0 +1,23 @@
+/* Para tabletas y pantallas medianas */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .p-wrapper::before {
+        width: 30vw;
+        height: 110vh;
+        /* Ajusta la altura según tus necesidades */
+    }
+    .body-content {
+        padding-top: 120px;
+    }
+}
+
+
+/* Para pantallas grandes */
+
+@media (min-width: 992px) {
+    .p-wrapper::before {
+        margin-top: -180px;
+        width: 30vw;
+        height: 110vh;
+    }
+}

@@ -8,7 +8,7 @@ import Home from '../projects/projects';
 
 @Component({
   selector: 'app-projects',
-  template: '<div [id]="rootId"></div>',
+  template: '<section class="p-wrapper"><div [id]="rootId"></div></section>',
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent implements OnChanges, AfterViewInit, OnDestroy{

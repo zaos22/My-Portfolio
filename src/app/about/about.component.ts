@@ -2,10 +2,10 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-about',
-  template: `<section>
+  template: `<section class="p-wrapper">
     <div class="container">
       <div class="row space3">
-        <div class="col-12 pt-5 text-center">
+        <div class="col-12 text-center">
           <h1>Education</h1>
         </div>
         <div class="col-sm-6 pt-5">
