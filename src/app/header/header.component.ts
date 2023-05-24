@@ -20,26 +20,22 @@ import { Component, OnInit } from '@angular/core';
             <div id="sidebarMenu">
               <div class="main-content-wrapper">
                 <a
-                  href=""
-                  [routerLink]="['/home']"
+                  href="/home"
                   [routerLinkActive]="['is-active']"
                   >Home</a
                 >
                 <a
-                  href=""
-                  [routerLink]="['/about']"
+                  href="/about"
                   [routerLinkActive]="['is-active']"
                   >About</a
                 >
                 <a
-                  href=""
-                  [routerLink]="['/projects']"
+                  href="/projects"
                   [routerLinkActive]="['is-active']"
                   >Projects</a
                 >
                 <a
-                  href=""
-                  [routerLink]="['/reach']"
+                  href="/reach"
                   [routerLinkActive]="['is-active']"
                   >Reach</a
                 >

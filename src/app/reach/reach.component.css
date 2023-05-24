@@ -79,11 +79,48 @@
 }
 
 @media (max-width: 767px) {
+    .iframe-show {
+        display: block;
+        display: flex;
+        justify-content: center;
+    }
+    .iframe-space {
+        display: none;
+    }
     .space3 {
         margin-left: -25px;
         margin-right: -25px;
     }
     .space1 {
         margin-top: 40px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .iframe-space {
+        display: none;
+    }
+    .iframe-show {
+        display: block;
+        margin-left: -10px;
+    }
+    .container2 {
+        margin-left: 50px;
+    }
+    .space1 {
+        margin-top: 25px;
+    }
+}
+
+@media (min-width: 992px) {
+    .iframe-show {
+        display: none;
+    }
+    .iframe-space {
+        display: block;
+        margin-left: -20px;
+    }
+    .container2 {
+        margin-left: 100px;
     }
 }

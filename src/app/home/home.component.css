@@ -157,3 +157,17 @@
 .a-react {
     color: blue;
 }
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .container2 {
+        margin-left: 5px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container2 {
+        margin-top: 25px;
+        margin-left: 25px;
+        padding-right: 25px;
+    }
+}

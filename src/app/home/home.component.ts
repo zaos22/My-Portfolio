@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-home',
   template: `<section>
-    <div class="container">
+    <div class="container container2">
       <div class="row">
         <div class="col-sm-5">
           <div class="p-profile"></div>
