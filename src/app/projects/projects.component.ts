@@ -1,34 +1,10 @@
-import { AfterViewInit, OnChanges, OnDestroy, Component, SimpleChanges } from '@angular/core';
-
-import * as React from 'react';
-
-import * as ReactDOM from 'react-dom';
-
-import Home from '../projects/projects';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-projects',
-  template: '<section class="p-wrapper"><div [id]="rootId"></div></section>',
+  template: '',
   styleUrls: ['./projects.component.css']
 })
-export class ProjectsComponent implements OnChanges, AfterViewInit, OnDestroy{
-  title = 'portfolio-react-angular';
+export class ProjectsComponent{
 
-  public rootId = 'rootId';
-
-  ngOnChanges(changes: SimpleChanges){
-    this.render();
-  }
-
-  ngAfterViewInit(){
-    this.render();
-  }
-
-  ngOnDestroy(){
-
-  }
-
-  private render() {
-    ReactDOM.render(React.createElement(Home), document.getElementById(this.rootId));
-  }
 }

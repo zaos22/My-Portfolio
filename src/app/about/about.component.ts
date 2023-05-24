@@ -258,17 +258,17 @@ import { Component } from '@angular/core';
                       </div>
                       <div class="contact-box-body">
                         <div class="row space">
-                          <div class="col-1">
+                          <div class="col-2">
                             <div class="mini-box pt-2">
                               <i class="fas fa-user-circle"></i>
                             </div>
                           </div>
-                          <div class="col-1">
+                          <div class="col-2">
                             <div class="mini-box">
                               <a
                                 href="https://acortar.link/CV-ZAO"
                                 target="_blank"
-                                class="btn btn-primary"
+                                class="btn btn-primary" style="background-color: blueviolet; color: white;"
                                 >PDF</a
                               >
                             </div>
