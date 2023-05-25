@@ -6,7 +6,9 @@ import { Component, OnInit } from '@angular/core';
     <div class="container">
       <div class="row">
         <div class="col-sm-5">
+          <div class="image-space">
           <div class="p-profile"></div>
+          </div>
         </div>
         <div class="col-sm-7">
           <div class="space2">
