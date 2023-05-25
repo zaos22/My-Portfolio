@@ -146,7 +146,7 @@ a {
     .p-wrapper::before {
         width: 30vw;
         margin-top: -250px;
-        height: 170vh;
+        height: 160vh;
         /* Ajusta la altura según tus necesidades */
     }
     .body-content {
@@ -161,7 +161,7 @@ a {
     .p-wrapper::before {
         margin-top: -150px;
         width: 30vw;
-        height: 260vh;
+        height: 240vh;
     }
 }
 
