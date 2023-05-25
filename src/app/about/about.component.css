@@ -88,6 +88,26 @@ a {
     }
 }
 
+@media (max-width: 768px) {
+  .img1 {
+    background: url('assets/img/ins-montsia.png');
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.img2 {
+    background: url('assets/img/joan-coromines.png');
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+}
+
 .img-space {
     display: flex;
     justify-content: center;
@@ -125,6 +145,25 @@ a {
     .body-content {
         padding-top: 120px;
     }
+  
+  .img1 {
+    background: url('assets/img/ins-montsia.png');
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.img2 {
+    background: url('assets/img/joan-coromines.png');
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
 }
 
 
