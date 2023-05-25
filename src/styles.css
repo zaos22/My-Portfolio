@@ -53,22 +53,6 @@ ul {
 /* Media Queries */
 
 
-/* Estilos específicos para pantallas móviles en orientación horizontal */
-
-@media only screen and (max-width: 472px) and (orientation: landscape) {
-    .p-wrapper2 {
-        margin: 0;
-        padding: 0;
-        padding-bottom: 5px;
-        content: '';
-        background-color: blueviolet;
-        height: 10vh;
-        width: 200vw;
-        position: absolute;
-    }
-}
-
-
 /* Para dispositivos móviles y pantallas pequeñas */
 
 @media (max-width: 767px) {
@@ -82,7 +66,7 @@ ul {
         content: '';
         background-color: blueviolet;
         height: 10vh;
-        width: 120vw;
+        width: 100vw;
         position: absolute;
     }
     .body-content {
