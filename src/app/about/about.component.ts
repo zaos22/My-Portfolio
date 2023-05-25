@@ -266,7 +266,7 @@ import { Component } from '@angular/core';
                           <div class="col-2">
                             <div class="mini-box">
                               <a
-                                href="https://acortar.link/CV-ZAO"
+                                href="https://acortar.link/ZAO-CV"
                                 target="_blank"
                                 class="btn btn-primary" style="background-color: blueviolet; color: white;"
                                 >PDF</a
