@@ -89,23 +89,22 @@ a {
 }
 
 @media (max-width: 768px) {
-  .img1 {
-    background: url('assets/img/ins-montsia.png');
-    width: 100px;
-    height: 100px;
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-}
-
-.img2 {
-    background: url('assets/img/joan-coromines.png');
-    width: 100px;
-    height: 100px;
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-}
+    .img1 {
+        background: url('assets/img/ins-montsia.png');
+        width: 100px;
+        height: 100px;
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
+    }
+    .img2 {
+        background: url('assets/img/joan-coromines.png');
+        width: 100px;
+        height: 100px;
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
+    }
 }
 
 .img-space {
@@ -136,46 +135,31 @@ a {
 /* Para tabletas y pantallas medianas */
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .p-wrapper::before {
-        width: 30vw;
-        margin-top: -250px;
-        height: 170vh;
-        /* Ajusta la altura según tus necesidades */
-    }
     .body-content {
         padding-top: 120px;
     }
-  
-  .img1 {
-    background: url('assets/img/ins-montsia.png');
-    width: 100px;
-    height: 100px;
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-}
-
-.img2 {
-    background: url('assets/img/joan-coromines.png');
-    width: 100px;
-    height: 100px;
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-}
-
+    .img1 {
+        background: url('assets/img/ins-montsia.png');
+        width: 100px;
+        height: 100px;
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
+    }
+    .img2 {
+        background: url('assets/img/joan-coromines.png');
+        width: 100px;
+        height: 100px;
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
+    }
 }
 
 
 /* Para pantallas grandes */
 
-@media (min-width: 992px) {
-    .p-wrapper::before {
-        margin-top: -150px;
-        width: 30vw;
-        height: 260vh;
-    }
-}
+@media (min-width: 992px) {}
 
 .space {
     display: flex;

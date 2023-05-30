@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-about',
-  template: `<section class="p-wrapper">
+  template: `<section class="">
     <div class="container">
       <div class="row space3">
         <div class="col-12 text-center">
@@ -17,7 +17,7 @@ import { Component } from '@angular/core';
                     <div class="contact-box">
                       <div class="row justify-content-between">
                         <div class="col-6 img-space">
-                          <div class="img1"></div>
+                        <img src="ins-montsia.png" alt="Imagen" class="img-fluid">
                         </div>
                         <div class="col-6">
                           <div class="contact-box-header">
@@ -57,7 +57,7 @@ import { Component } from '@angular/core';
                     <div class="contact-box">
                       <div class="row justify-content-between">
                         <div class="col-6 img-space">
-                          <div class="img2"></div>
+                        <img src="joan-coromines.png" alt="Imagen" class="img-fluid">
                         </div>
                         <div class="col-6">
                           <div class="contact-box-header">
@@ -248,7 +248,7 @@ import { Component } from '@angular/core';
         </div>
         <div class="col-sm-12 pt-5 text-center">
           <div class="container">
-            <section>
+            <section class="">
               <div class="container">
                 <div class="row justify-content-center align-items-center">
                   <div class="col-md-8">
@@ -283,6 +283,9 @@ import { Component } from '@angular/core';
           </div>
         </div>
       </div>
+    </div>
+    <div class="pt-5">
+
     </div>
   </section>`,
   styleUrls: ['./about.component.css'],

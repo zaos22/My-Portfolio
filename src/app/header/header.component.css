@@ -294,7 +294,7 @@ input[type="checkbox"]:checked~.sidebarIconToggle>.diagonal.part-2 {
     .weather-info p {
         margin: 0;
         font-size: 11px;
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
     }
 }
 
@@ -315,11 +315,6 @@ input[type="checkbox"]:checked~.sidebarIconToggle>.diagonal.part-2 {
     .sidebarIconToggle {
         left: 35px;
         top: 40px;
-    }
-    .weather-info p {
-        margin: 0;
-        font-size: 11px;
-        color: rgb(255, 255, 255);
     }
 }
 
