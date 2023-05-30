@@ -17,7 +17,11 @@ import { Component } from '@angular/core';
                     <div class="contact-box">
                       <div class="row justify-content-between">
                         <div class="col-6 img-space">
-                        <img src="ins-montsia.png" alt="Imagen" class="img-fluid">
+                          <img
+                            src="https://i.postimg.cc/zXwNK1gf/ins-montsia.png"
+                            alt="Imagen"
+                            class="img-fluid"
+                          />
                         </div>
                         <div class="col-6">
                           <div class="contact-box-header">
@@ -57,7 +61,11 @@ import { Component } from '@angular/core';
                     <div class="contact-box">
                       <div class="row justify-content-between">
                         <div class="col-6 img-space">
-                        <img src="joan-coromines.png" alt="Imagen" class="img-fluid">
+                          <img
+                            src="https://i.postimg.cc/151P8z4T/joan-coromines.png"
+                            alt="Imagen"
+                            class="img-fluid"
+                          />
                         </div>
                         <div class="col-6">
                           <div class="contact-box-header">
@@ -268,7 +276,8 @@ import { Component } from '@angular/core';
                               <a
                                 href="https://acortar.link/ZAO_CV"
                                 target="_blank"
-                                class="btn btn-primary" style="background-color: blueviolet; color: white;"
+                                class="btn btn-primary"
+                                style="background-color: blueviolet; color: white;"
                                 >PDF</a
                               >
                             </div>
@@ -284,9 +293,7 @@ import { Component } from '@angular/core';
         </div>
       </div>
     </div>
-    <div class="pt-5">
-
-    </div>
+    <div class="pt-5"></div>
   </section>`,
   styleUrls: ['./about.component.css'],
 })

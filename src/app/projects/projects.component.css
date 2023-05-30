@@ -94,76 +94,15 @@ a {
     align-items: center;
 }
 
-.img11 {
-    background: url('assets/img/virtualio.png');
-    width: 200px;
-    height: 200px;
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-}
-
-.img12 {
-    background: url('assets/img/maesports.png');
-    width: 200px;
-    height: 200px;
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-}
-
-.img13 {
-    background: url('assets/img/laboratorios_jcid.png');
-    width: 200px;
-    height: 200px;
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-}
-
-.img14 {
-    background: url('assets/img/gestoria_ibe.png');
-    width: 200px;
-    height: 200px;
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-}
-
-.img15 {
-    background: url('assets/img/Logo-Portfolio-Page.png');
-    width: 200px;
-    height: 200px;
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-}
-
 
 /* Para tabletas y pantallas medianas */
 
-@media (min-width: 768px) and (max-width: 991px) {
-    .p-wrapper::before {
-        width: 30vw;
-        margin-top: -250px;
-        height: 160vh;
-        /* Ajusta la altura según tus necesidades */
-    }
-    .body-content {
-        padding-top: 120px;
-    }
-}
+@media (min-width: 768px) and (max-width: 991px) {}
 
 
 /* Para pantallas grandes */
 
-@media (min-width: 992px) {
-    .p-wrapper::before {
-        margin-top: -150px;
-        width: 30vw;
-        height: 240vh;
-    }
-}
+@media (min-width: 992px) {}
 
 .space {
     display: flex;

@@ -18,7 +18,7 @@ import { Component } from '@angular/core';
                       <div class="row justify-content-between">
                         <div class="col-6 img-space">
                           <img
-                            src="Logo-Portfolio-Page.png"
+                            src="https://i.postimg.cc/L4124P4L/Logo-Portfolio-Page.png"
                             alt="Imagen"
                             class="img-fluid"
                           />
@@ -56,7 +56,7 @@ import { Component } from '@angular/core';
                       <div class="row justify-content-between">
                         <div class="col-6 img-space">
                           <img
-                            src="virtualio.png"
+                            src="https://i.postimg.cc/QC13f2Y0/virtualio.png"
                             alt="Imagen"
                             class="img-fluid"
                           />
@@ -97,7 +97,7 @@ import { Component } from '@angular/core';
                       <div class="row justify-content-between">
                         <div class="col-6 img-space">
                           <img
-                            src="maesports.png"
+                            src="https://i.postimg.cc/wj0d4cF8/maesports.png"
                             alt="Imagen"
                             class="img-fluid"
                           />
@@ -138,7 +138,7 @@ import { Component } from '@angular/core';
                       <div class="row justify-content-between">
                         <div class="col-6 img-space">
                           <img
-                            src="laboratorios_jcid.png"
+                            src="https://i.postimg.cc/7ZxkNQ3n/laboratorios-jcid.png"
                             alt="Imagen"
                             class="img-fluid"
                           />
@@ -179,7 +179,7 @@ import { Component } from '@angular/core';
                       <div class="row justify-content-between">
                         <div class="col-6 img-space">
                           <img
-                            src="gestoria_ibe.png"
+                            src="https://i.postimg.cc/B6d3cSpj/gestoria-ibe.png"
                             alt="Imagen"
                             class="img-fluid"
                           />
@@ -220,7 +220,7 @@ import { Component } from '@angular/core';
                       <div class="row justify-content-between">
                         <div class="col-6 img-space">
                           <img
-                            src="virtualio.png"
+                            src="https://i.postimg.cc/QC13f2Y0/virtualio.png"
                             alt="Imagen"
                             class="img-fluid"
                           />
@@ -254,4 +254,6 @@ import { Component } from '@angular/core';
   </section>`,
   styleUrls: ['./projects.component.css'],
 })
-export class ProjectsComponent {}
+export class ProjectsComponent {
+  img1: string = 'virtualio.png';
+}

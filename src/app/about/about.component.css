@@ -88,24 +88,7 @@ a {
     }
 }
 
-@media (max-width: 768px) {
-    .img1 {
-        background: url('assets/img/ins-montsia.png');
-        width: 100px;
-        height: 100px;
-        background-size: cover;
-        background-position: top;
-        background-repeat: no-repeat;
-    }
-    .img2 {
-        background: url('assets/img/joan-coromines.png');
-        width: 100px;
-        height: 100px;
-        background-size: cover;
-        background-position: top;
-        background-repeat: no-repeat;
-    }
-}
+@media (max-width: 768px) {}
 
 .img-space {
     display: flex;
@@ -113,48 +96,10 @@ a {
     align-items: center;
 }
 
-.img1 {
-    background: url('assets/img/ins-montsia.png');
-    width: 200px;
-    height: 200px;
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-}
-
-.img2 {
-    background: url('assets/img/joan-coromines.png');
-    width: 200px;
-    height: 200px;
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-}
-
 
 /* Para tabletas y pantallas medianas */
 
-@media (min-width: 768px) and (max-width: 991px) {
-    .body-content {
-        padding-top: 120px;
-    }
-    .img1 {
-        background: url('assets/img/ins-montsia.png');
-        width: 100px;
-        height: 100px;
-        background-size: cover;
-        background-position: top;
-        background-repeat: no-repeat;
-    }
-    .img2 {
-        background: url('assets/img/joan-coromines.png');
-        width: 100px;
-        height: 100px;
-        background-size: cover;
-        background-position: top;
-        background-repeat: no-repeat;
-    }
-}
+@media (min-width: 768px) and (max-width: 991px) {}
 
 
 /* Para pantallas grandes */
