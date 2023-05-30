@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-projects',
-  template: `<section class="p-wrapper">
+  template: `<section class="">
     <div class="container">
       <div class="row space3">
         <div class="col-12 text-center">
@@ -17,7 +17,11 @@ import { Component } from '@angular/core';
                     <div class="contact-box">
                       <div class="row justify-content-between">
                         <div class="col-6 img-space">
-                          <div class="img15"></div>
+                          <img
+                            src="Logo-Portfolio-Page.png"
+                            alt="Imagen"
+                            class="img-fluid"
+                          />
                         </div>
                         <div class="col-6 pt-5">
                           <div class="contact-box-header">
@@ -51,7 +55,11 @@ import { Component } from '@angular/core';
                     <div class="contact-box">
                       <div class="row justify-content-between">
                         <div class="col-6 img-space">
-                          <div class="img11"></div>
+                          <img
+                            src="virtualio.png"
+                            alt="Imagen"
+                            class="img-fluid"
+                          />
                         </div>
                         <div class="col-6 pt-5">
                           <div class="contact-box-header">
@@ -88,7 +96,11 @@ import { Component } from '@angular/core';
                     <div class="contact-box">
                       <div class="row justify-content-between">
                         <div class="col-6 img-space">
-                          <div class="img12"></div>
+                          <img
+                            src="maesports.png"
+                            alt="Imagen"
+                            class="img-fluid"
+                          />
                         </div>
                         <div class="col-6 pt-5">
                           <div class="contact-box-header">
@@ -125,7 +137,11 @@ import { Component } from '@angular/core';
                     <div class="contact-box">
                       <div class="row justify-content-between">
                         <div class="col-6 img-space">
-                          <div class="img13"></div>
+                          <img
+                            src="laboratorios_jcid.png"
+                            alt="Imagen"
+                            class="img-fluid"
+                          />
                         </div>
                         <div class="col-6 pt-5">
                           <div class="contact-box-header">
@@ -162,7 +178,11 @@ import { Component } from '@angular/core';
                     <div class="contact-box">
                       <div class="row justify-content-between">
                         <div class="col-6 img-space">
-                          <div class="img14"></div>
+                          <img
+                            src="gestoria_ibe.png"
+                            alt="Imagen"
+                            class="img-fluid"
+                          />
                         </div>
                         <div class="col-6 pt-5">
                           <div class="contact-box-header">
@@ -199,7 +219,11 @@ import { Component } from '@angular/core';
                     <div class="contact-box">
                       <div class="row justify-content-between">
                         <div class="col-6 img-space">
-                          <div class="img11"></div>
+                          <img
+                            src="virtualio.png"
+                            alt="Imagen"
+                            class="img-fluid"
+                          />
                         </div>
                         <div class="col-6 pt-5">
                           <div class="contact-box-header">
@@ -224,6 +248,7 @@ import { Component } from '@angular/core';
             </section>
           </div>
         </div>
+        <div class="pt-5"></div>
       </div>
     </div>
   </section>`,

@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-reach',
-  template: `<section class="p-wrapper">
+  template: `<section class="">
     <div class="container">
       <div class="row space3">
         <div class="col-sm-5">

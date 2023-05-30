@@ -36,17 +36,9 @@ ul {
     padding-right: 70px;
 }
 
-.p-wrapper {
-    position: relative;
-}
-
-.p-wrapper::before {
-    content: '';
+header {
     background-color: blueviolet;
-    height: 100vh;
-    width: 25vw;
-    position: absolute;
-    z-index: -1;
+    margin-bottom: 30px;
 }
 
 
@@ -55,45 +47,14 @@ ul {
 
 /* Para dispositivos móviles y pantallas pequeñas */
 
-@media (max-width: 767px) {
-    .p-wrapper::before {
-        display: none;
-    }
-    .p-wrapper2 {
-        margin: 0;
-        padding: 0;
-        padding-bottom: 5px;
-        content: '';
-        background-color: blueviolet;
-        height: 10vh;
-        width: 100vw;
-        position: absolute;
-    }
-    .body-content {
-        padding-top: 120px;
-    }
-}
+@media (max-width: 767px) {}
 
 
 /* Para tabletas y pantallas medianas */
 
-@media (min-width: 768px) and (max-width: 991px) {
-    .p-wrapper::before {
-        width: 30vw;
-        height: 110vh;
-        /* Ajusta la altura según tus necesidades */
-    }
-    .body-content {
-        padding-top: 120px;
-    }
-}
+@media (min-width: 768px) and (max-width: 991px) {}
 
 
 /* Para pantallas grandes */
 
-@media (min-width: 992px) {
-    .p-wrapper::before {
-        width: 30vw;
-        height: 120vh;
-    }
-}
+@media (min-width: 992px) {}
