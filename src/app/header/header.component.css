@@ -98,18 +98,18 @@ a {
 
 header ul li a:hover {
     text-decoration: none;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid rgb(0, 0, 0);
     /* Cambia el color y el grosor según tus preferencias */
 }
 
 header ul div a:hover {
     text-decoration: none;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid rgb(0, 0, 0);
     /* Cambia el color y el grosor según tus preferencias */
 }
 
 header ul li a {
-    color: #000000;
+    color: #ffffff;
     font-weight: 500;
     position: relative;
 }
@@ -203,13 +203,13 @@ header ul li a {
 #sidebarMenu a {
     display: block;
     padding: 10px;
-    color: #000;
+    color: #ffffff;
     text-decoration: none;
     transition: background-color 0.3s ease-in-out;
 }
 
 #sidebarMenu a:hover {
-    background-color: #ffffff;
+    background-color: #000000;
 }
 
 #sidebarMenu .close-btn {
