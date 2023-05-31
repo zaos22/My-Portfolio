@@ -60,6 +60,7 @@ import { Component } from '@angular/core';
             </section>
           </div>
         </div>
+        <div class="pt-5"></div>
       </div>
     </div>
   </section>`,
