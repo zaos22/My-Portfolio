@@ -306,6 +306,17 @@ input[type="checkbox"]:checked~.sidebarIconToggle>.diagonal.part-2 {
 }
 
 @media screen and (max-width: 991px) {
+    .floating-box {
+        right: unset;
+        left: 20px;
+    }
+    .ul-items {
+        display: none;
+        /* Oculta completamente el encabezado en tabletas */
+    }
+    .search-icon {
+        display: none;
+    }
     .sidebarIconToggle {
         display: block;
     }
@@ -353,26 +364,5 @@ input[type="checkbox"]:checked~.sidebarIconToggle>.diagonal.part-2 {
     }
     .sidebarIconToggle {
         left: 35px;
-    }
-}
-
-
-/* Para tabletas y pantallas medianas */
-
-@media (min-width: 768px) and (max-width: 991px) {
-    .floating-box {
-        right: unset;
-        left: 20px;
-    }
-    .ul-items {
-        display: none;
-        /* Oculta completamente el encabezado en tabletas */
-    }
-    .search-icon {
-        display: none;
-    }
-    .sidebarIconToggle {
-        width: 32px;
-        left: 102px;
     }
 }
