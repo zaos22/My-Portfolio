@@ -19,26 +19,12 @@ import { Component, OnInit } from '@angular/core';
             </label>
             <div id="sidebarMenu">
               <div class="main-content-wrapper">
-                <a
-                  href="/home"
-                  [routerLinkActive]="['is-active']"
-                  >Home</a
-                >
-                <a
-                  href="/about"
-                  [routerLinkActive]="['is-active']"
-                  >About</a
-                >
-                <a
-                  href="/projects"
-                  [routerLinkActive]="['is-active']"
+                <a href="/home" [routerLinkActive]="['is-active']">Home</a>
+                <a href="/about" [routerLinkActive]="['is-active']">About</a>
+                <a href="/projects" [routerLinkActive]="['is-active']"
                   >Projects</a
                 >
-                <a
-                  href="/reach"
-                  [routerLinkActive]="['is-active']"
-                  >Reach</a
-                >
+                <a href="/reach" [routerLinkActive]="['is-active']">Reach</a>
               </div>
             </div>
             <li></li>
@@ -106,6 +92,25 @@ import { Component, OnInit } from '@angular/core';
             </li>
           </ul>
         </div>
+      </div>
+    </div>
+    <div class="floating-box">
+      <input type="checkbox" id="toggle-box" class="toggle-input" />
+      <label for="toggle-box" class="toggle-label">
+        <i class="fa-solid fa-square-share-nodes"></i>
+      </label>
+      <div class="icon-container">
+        <a
+          href="https://www.linkedin.com/in/zazou-abid-501432240/"
+          target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/ZaynOssama" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a href="https://www.instagram.com/yoowzayn/" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
       </div>
     </div>
   </header>`,

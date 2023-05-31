@@ -1,3 +1,74 @@
+.floating-box {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+
+.toggle-input {
+    display: none;
+}
+
+.toggle-label i {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    line-height: 40px;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+.toggle-label:hover i {
+    opacity: 1;
+}
+
+.toggle-label {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    color: blueviolet;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-container {
+    display: none;
+    position: absolute;
+    bottom: 70px;
+    right: 0;
+    background-color: rgba(138, 43, 226, 0.7);
+    /* Cambia el color de fondo de los iconos según tus preferencias */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    /* Cambia los valores de sombra según tus preferencias */
+}
+
+.icon-container a {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.icon-container a i {
+    font-size: 20px;
+    color: #000;
+    /* Cambia el color de los íconos según tus preferencias */
+}
+
+.toggle-input:checked+.toggle-label+.icon-container {
+    display: block;
+}
+
 header {
     padding: 30px 0;
 }
@@ -303,7 +374,11 @@ input[type="checkbox"]:checked~.sidebarIconToggle>.diagonal.part-2 {
 
 /* Para dispositivos móviles y pantallas pequeñas */
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
+    .floating-box {
+        right: unset;
+        left: 20px;
+    }
     .ul-items {
         display: none;
         /* Oculta completamente el encabezado en dispositivos móviles */
@@ -321,6 +396,10 @@ input[type="checkbox"]:checked~.sidebarIconToggle>.diagonal.part-2 {
 /* Para tabletas y pantallas medianas */
 
 @media (min-width: 768px) and (max-width: 991px) {
+    .floating-box {
+        right: unset;
+        left: 20px;
+    }
     .ul-items {
         display: none;
         /* Oculta completamente el encabezado en tabletas */
