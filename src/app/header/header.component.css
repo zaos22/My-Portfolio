@@ -212,19 +212,6 @@ header ul li a {
     background-color: #000000;
 }
 
-#sidebarMenu .close-btn {
-    display: none;
-    padding: 10px;
-    background-color: #ccc;
-    color: #000;
-    border: none;
-    cursor: pointer;
-}
-
-#sidebarMenu .close-btn:hover {
-    background-color: #aaa;
-}
-
 #sidebarMenu::-webkit-scrollbar {
     width: 8px;
 }
