@@ -305,6 +305,38 @@ input[type="checkbox"]:checked~.sidebarIconToggle>.diagonal.part-2 {
     margin-top: -9px;
 }
 
+@media screen and (max-width: 991px) {
+    .sidebarIconToggle {
+        display: block;
+    }
+    .time {
+        display: none;
+    }
+    .time2 {
+        margin-top: -10px;
+        margin-right: -100px;
+        position: relative;
+        display: block;
+    }
+    .weather-box {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 10px;
+        background-color: transparent;
+    }
+    .weather-icon {
+        margin-right: 10px;
+        font-size: 20px;
+        color: #000000;
+    }
+    .weather-info p {
+        margin: 0;
+        font-size: 11px;
+        color: rgb(255, 255, 255);
+    }
+}
+
 
 /* Para dispositivos móviles y pantallas pequeñas */
 
@@ -343,33 +375,5 @@ input[type="checkbox"]:checked~.sidebarIconToggle>.diagonal.part-2 {
     .sidebarIconToggle {
         width: 32px;
         left: 102px;
-    }
-    .sidebarIconToggle {
-        display: block;
-    }
-    .time {
-        display: none;
-    }
-    .time2 {
-        margin-right: -100px;
-        position: relative;
-        display: block;
-    }
-    .weather-box {
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-        padding: 10px;
-        background-color: transparent;
-    }
-    .weather-icon {
-        margin-right: 10px;
-        font-size: 20px;
-        color: #000000;
-    }
-    .weather-info p {
-        margin: 0;
-        font-size: 11px;
-        color: rgb(255, 255, 255);
     }
 }
