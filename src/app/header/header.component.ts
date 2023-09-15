@@ -45,7 +45,7 @@ import { Component, OnInit } from '@angular/core';
           </ul>
           <ul>
             <li class="time2">
-              <div class="weather-box">
+              <div class="weather-box">0
                 <div class="weather-icon">
                   <i class="fas fa-clock"></i>
                 </div>
@@ -108,7 +108,7 @@ import { Component, OnInit } from '@angular/core';
         <a href="https://github.com/ZaynOssama" target="_blank"
           ><i class="fab fa-github"></i
         ></a>
-        <a href="https://www.instagram.com/yoowzayn/" target="_blank"
+        <a href="https://www.instagram.com/zaos_22/" target="_blank"
           ><i class="fab fa-instagram"></i
         ></a>
       </div>
