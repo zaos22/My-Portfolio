@@ -45,7 +45,7 @@ import { Component, OnInit } from '@angular/core';
           </ul>
           <ul>
             <li class="time2">
-              <div class="weather-box">0
+              <div class="weather-box">
                 <div class="weather-icon">
                   <i class="fas fa-clock"></i>
                 </div>
